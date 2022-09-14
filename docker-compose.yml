@@ -5,7 +5,7 @@ services:
     build:
       context: ./express-file-upload
       dockerfile: Dockerfile
-    container_name: api_upload_file2
+    container_name: api_upload_file
     restart: unless-stopped
     volumes:
       - ./express-file-upload:/usr/src/app
